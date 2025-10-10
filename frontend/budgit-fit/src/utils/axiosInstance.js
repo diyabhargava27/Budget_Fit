@@ -1,6 +1,6 @@
 // utils/axiosInstance.js
 import axios from "axios";
-export const BASE_URL = 'https://budget-fit-zpyr.onrender.com/api/v1';  // Backend URL
+export const BASE_URL = 'https://budget-fit-11.onrender.com/api/v1';  // Backend URL
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
   timeout: 10000,
