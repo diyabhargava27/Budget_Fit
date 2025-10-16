@@ -2,7 +2,7 @@
   "devDependencies": {
     "concurrently": "^9.1.2",
      "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
-      "proxy": "" 
+      "proxy": "https://budget-fit-frontend-qdsr.onrender.com/" 
 
   }
 }
