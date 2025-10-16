@@ -14,7 +14,7 @@ app.use(express.json());
 // CORS middleware with a specific origin
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://budget-fit-frontend-qdsr.onrender.com/"
+  "https://budget-fit-frontend-qdsr.onrender.com"
 ];
 
 app.use(cors({
