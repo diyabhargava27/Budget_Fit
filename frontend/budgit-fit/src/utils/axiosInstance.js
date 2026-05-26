@@ -45,8 +45,7 @@ app.use('/uploads', express.static('uploads'));
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));/api/v1';  // Backend URL
 const axiosInstance = axios.create({
-  baseURL: BASE_URL,
-  timeout: 10000,
+  baseURL: BASE_URL
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
