@@ -41,5 +41,5 @@ app.use("/api/v1/dashboard", dashboardRoutes);
 app.use('/uploads', express.static('uploads'));
 
 
-const PORT = process.env.PORT || "https://budget-fit-backend-9301.onrender.com";
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
