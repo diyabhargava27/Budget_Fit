@@ -1,4 +1,4 @@
-export const BASE_URL = "https://budget-fit-backend-9301.onrender.com";
+export const BASE_URL = "https://budget-fit-frontend-d79p.onrender.com";
 
 export const API_PATHS = {
     AUTH: {
