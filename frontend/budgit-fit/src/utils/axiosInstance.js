@@ -1,6 +1,6 @@
 // utils/axiosInstance.js
 import axios from "axios";
-export const BASE_URL = 'https://backend-e59c.onrender.com/api/v1'; // Backend URL
+export const BASE_URL = 'https://backend-1-n5k1.onrender.com/api/v1'; // Backend URL
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
   timeout: 10000,
