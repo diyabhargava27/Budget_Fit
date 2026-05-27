@@ -1,4 +1,4 @@
-export const BASE_URL = "https://backend-e59c.onrender.com";
+export const BASE_URL = "https://backend-1-n5k1.onrender.com";
 
 export const API_PATHS = {
     AUTH: {
